@@ -1,12 +1,15 @@
 import { Button } from "@/components/ui/button"
 import { UserReviews } from "@/components/UserReviews"
+import { Title } from "@/components/Title"
+import { HistoryCards } from "@/components/HistoryCards"
 
 function App() {
 
   return (
     <>
-      <h1>Top 10 Most Significant Events of Canadian and World History</h1>
+      <Title />
       <UserReviews />
+      <HistoryCards />
     </>
   )
 }
