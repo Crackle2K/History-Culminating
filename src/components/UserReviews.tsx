@@ -1,30 +1,41 @@
 import { Marquee } from "@/components/ui/marquee"
 import { cn } from "@/lib/utils"
+import misplacedorangeImg from "@/assets/icons/misplacedorange.jpg"
+import louisfangImg from "@/assets/icons/louisfang.png"
+import hoganyuImg from "@/assets/icons/hoganyu.jpg"
+import navgotshotImg from "@/assets/icons/navgotshot.png"
+import ibrahimhameedImg from "@/assets/icons/ibrahimhameed.jpg"
 
 const reviews = [
   {
     name: "Louis Fang",
     username: "@StillNotLouiii",
-    body: "I really like the selected choices as I feel it accurately represents some of the most important events in World History.",
-    img: "https://avatar.vercel.sh/jack",
+    body: "Thank you so much for blessing me with this historic knowledge which I will carry to future generations.",
+    img: louisfangImg,
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "Example Text",
-    img: "https://avatar.vercel.sh/jill",
+    name: "Hogan Yu",
+    username: "@goodenough6997",
+    body: "Your work is genuinely exceptional, and I mean that in the most literal sense.",
+    img: hoganyuImg,
   },
   {
-    name: "John",
-    username: "@john",
-    body: "Example Text",
-    img: "https://avatar.vercel.sh/john",
+    name: "Roy Lu",
+    username: "@MisplacedOrange",
+    body: "The way each event was displayed with such detailed explanations and elements truly captivated my attention.",
+    img: misplacedorangeImg,
   },
   {
     name: "Ibrahim Hameed",
-    username: "ibbu_hameed",
-    body: "Example Text",
-    img: "https://avatar.vercel.sh/jill",
+    username: "@ibbu_hameed",
+    body: "I really like the selected choices as I feel it accurately represents some of the most important events in World History.",
+    img: ibrahimhameedImg,
+  },
+  {
+    name: "Navjot Singh Sidhu",
+    username: "@navgotshot",
+    body: "The way you were able to inform me on which events mattered most in our history left me dazzled.",
+    img: navgotshotImg,
   }
 ]
 
@@ -53,7 +64,7 @@ const ReviewCard = ({
       )}
     >
       <div className="flex flex-row items-center gap-2">
-        <img className="rounded-full" width="32" height="32" alt="" src={img} />
+        <img className="rounded-full object-cover aspect-square" width="32" height="32" alt="" src={img} />
         <div className="flex flex-col">
           <figcaption className="text-sm font-medium dark:text-white">
             {name}
