@@ -6,7 +6,6 @@ interface HistoryEvent {
   title: string
   year: string
   description: string
-  isCanadian: boolean
   bgColor: string
 }
 
@@ -16,7 +15,6 @@ const events: HistoryEvent[] = [
     title: "Battle of Hong Kong",
     year: "1941",
     description: "description here",
-    isCanadian: false,
     bgColor: "from-red-900 to-red-950",
   },
   {
@@ -24,7 +22,6 @@ const events: HistoryEvent[] = [
     title: "Dieppe Raid",
     year: "1942",
     description: "description here",
-    isCanadian: false,
     bgColor: "from-purple-900 to-pink-950",
   },
   {
@@ -32,7 +29,6 @@ const events: HistoryEvent[] = [
     title: "Battle of the Atlantic",
     year: "1939 - 1945",
     description: "description here",
-    isCanadian: false,
     bgColor: "from-cyan-900 to-blue-950",
   },
   {
@@ -40,7 +36,6 @@ const events: HistoryEvent[] = [
     title: "Battle of Vimy Ridge",
     year: "1917",
     description: "description here",
-    isCanadian: false,
     bgColor: "from-green-900 to-emerald-950",
   },
   {
@@ -48,7 +43,6 @@ const events: HistoryEvent[] = [
     title: "Fall of the Berlin Wall",
     year: "1989",
     description: "description here",
-    isCanadian: false,
     bgColor: "from-orange-900 to-amber-950",
   },
   {
@@ -56,7 +50,6 @@ const events: HistoryEvent[] = [
     title: "The Great Depression",
     year: "1929 - 1939",
     description: "description here",
-    isCanadian: false,
     bgColor: "from-gray-900 to-slate-950",
   },
   {
@@ -64,7 +57,6 @@ const events: HistoryEvent[] = [
     title: "D-Day Invasion of Juno Beach",
     year: "1944",
     description: "description here",
-    isCanadian: false,
     bgColor: "from-red-900 to-rose-950",
   },
   {
@@ -72,7 +64,6 @@ const events: HistoryEvent[] = [
     title: "The Manhattan Project",
     year: "1942 - 1945",
     description: "description here",
-    isCanadian: false,
     bgColor: "from-yellow-900 to-orange-950",
   },
   {
@@ -80,7 +71,6 @@ const events: HistoryEvent[] = [
     title: "Operation Barborosa",
     year: "1941",
     description: "description here",
-    isCanadian: false,
     bgColor: "from-violet-900 to-purple-950",
   },
   {
@@ -88,7 +78,6 @@ const events: HistoryEvent[] = [
     title: "The Moon Landing",
     year: "1969",
     description: "description here",
-    isCanadian: false,
     bgColor: "from-sky-900 to-cyan-950",
   },
 ]
@@ -97,7 +86,7 @@ const MapleLeafIcon = () => (
   <img src={mapleLeafImg} alt="Canadian" width="24" height="24" className="inline-block" />
 )
 
-const EventSection = ({ rank, title, year, description, isCanadian, bgColor }: HistoryEvent) => {
+const EventSection = ({ rank, title, year, description, bgColor }: HistoryEvent) => {
   return (
     <section
       className={cn(
@@ -114,11 +103,6 @@ const EventSection = ({ rank, title, year, description, isCanadian, bgColor }: H
             <h2 className="text-5xl md:text-7xl font-bold text-white leading-tight">
               {title}
             </h2>
-            {isCanadian && (
-              <span className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/10 backdrop-blur-sm text-white text-lg font-medium border border-white/20">
-                <MapleLeafIcon /> Canadian Event
-              </span>
-            )}
           </div>
           <p className="text-3xl md:text-4xl font-semibold text-white/70">
             {year}
