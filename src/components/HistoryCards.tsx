@@ -1,90 +1,16 @@
 import { cn } from "@/lib/utils"
-import mapleLeafImg from "@/assets/icons/mapleleaf.png"
+import eventsData from "@/data/events.json"
 
 interface HistoryEvent {
   rank: number
   title: string
   year: string
   description: string
+  isCanadian: boolean
   bgColor: string
 }
 
-const events: HistoryEvent[] = [
-  {
-    rank: 10,
-    title: "Battle of Hong Kong",
-    year: "1941",
-    description: "description here",
-    bgColor: "from-red-900 to-red-950",
-  },
-  {
-    rank: 9,
-    title: "Dieppe Raid",
-    year: "1942",
-    description: "description here",
-    bgColor: "from-purple-900 to-pink-950",
-  },
-  {
-    rank: 8,
-    title: "Battle of the Atlantic",
-    year: "1939 - 1945",
-    description: "description here",
-    bgColor: "from-cyan-900 to-blue-950",
-  },
-  {
-    rank: 7,
-    title: "Battle of Vimy Ridge",
-    year: "1917",
-    description: "description here",
-    bgColor: "from-green-900 to-emerald-950",
-  },
-  {
-    rank: 6,
-    title: "Fall of the Berlin Wall",
-    year: "1989",
-    description: "description here",
-    bgColor: "from-orange-900 to-amber-950",
-  },
-  {
-    rank: 5,
-    title: "The Great Depression",
-    year: "1929 - 1939",
-    description: "description here",
-    bgColor: "from-gray-900 to-slate-950",
-  },
-  {
-    rank: 4,
-    title: "D-Day Invasion of Juno Beach",
-    year: "1944",
-    description: "description here",
-    bgColor: "from-red-900 to-rose-950",
-  },
-  {
-    rank: 3,
-    title: "The Manhattan Project",
-    year: "1942 - 1945",
-    description: "description here",
-    bgColor: "from-yellow-900 to-orange-950",
-  },
-  {
-    rank: 2,
-    title: "Operation Barborosa",
-    year: "1941",
-    description: "description here",
-    bgColor: "from-violet-900 to-purple-950",
-  },
-  {
-    rank: 1,
-    title: "The Moon Landing",
-    year: "1969",
-    description: "description here",
-    bgColor: "from-sky-900 to-cyan-950",
-  },
-]
-
-const MapleLeafIcon = () => (
-  <img src={mapleLeafImg} alt="Canadian" width="24" height="24" className="inline-block" />
-)
+const events: HistoryEvent[] = eventsData
 
 const EventSection = ({ rank, title, year, description, bgColor }: HistoryEvent) => {
   return (
