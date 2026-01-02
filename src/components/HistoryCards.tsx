@@ -6,7 +6,6 @@ interface HistoryEvent {
   title: string
   year: string
   description: string
-  isCanadian: boolean
   bgColor: string
 }
 
@@ -16,7 +15,7 @@ const EventSection = ({ rank, title, year, description, bgColor }: HistoryEvent)
   return (
     <section
       className={cn(
-        "w-full min-h-screen flex items-center bg-gradient-to-br",
+        "w-full min-h-screen flex items-center",
         bgColor
       )}
     >
