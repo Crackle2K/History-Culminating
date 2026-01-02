@@ -1,0 +1,82 @@
+[
+  {
+    "rank": 10,
+    "title": "Battle of Hong Kong",
+    "year": "1941",
+    "description": "The Battle of Hong Kong was the first battle involving Canadian troops in WW2, with the battle lasting from December 8th - 25th, 1941.",
+    "isCanadian": true,
+    "bgColor": "bg-red-900"
+  },
+  {
+    "rank": 9,
+    "title": "Dieppe Raid",
+    "year": "1942",
+    "description": "description here",
+    "isCanadian": true,
+    "bgColor": "bg-purple-900"
+  },
+  {
+    "rank": 8,
+    "title": "Battle of the Atlantic",
+    "year": "1939 - 1945",
+    "description": "description here",
+    "isCanadian": true,
+    "bgColor": "bg-cyan-900"
+  },
+  {
+    "rank": 7,
+    "title": "Battle of Vimy Ridge",
+    "year": "1917",
+    "description": "description here",
+    "isCanadian": true,
+    "bgColor": "bg-green-900"
+  },
+  {
+    "rank": 6,
+    "title": "Fall of the Berlin Wall",
+    "year": "1989",
+    "description": "description here",
+    "isCanadian": false,
+    "bgColor": "bg-orange-900"
+  },
+  {
+    "rank": 5,
+    "title": "The Great Depression",
+    "year": "1929 - 1939",
+    "description": "description here",
+    "isCanadian": false,
+    "bgColor": "bg-gray-900"
+  },
+  {
+    "rank": 4,
+    "title": "D-Day Invasion of Juno Beach",
+    "year": "1944",
+    "description": "description here",
+    "isCanadian": true,
+    "bgColor": "bg-red-900"
+  },
+  {
+    "rank": 3,
+    "title": "The Manhattan Project",
+    "year": "1942 - 1945",
+    "description": "description here",
+    "isCanadian": false,
+    "bgColor": "bg-yellow-900"
+  },
+  {
+    "rank": 2,
+    "title": "Operation Barborosa",
+    "year": "1941",
+    "description": "description here",
+    "isCanadian": false,
+    "bgColor": "bg-violet-900"
+  },
+  {
+    "rank": 1,
+    "title": "The Moon Landing",
+    "year": "1969",
+    "description": "description here",
+    "isCanadian": false,
+    "bgColor": "bg-sky-900"
+  }
+]
