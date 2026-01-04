@@ -6,12 +6,13 @@ interface HistoryEvent {
   title: string
   year: string
   description: string
+  images?: string[]
   bgColor: string
 }
 
 const events: HistoryEvent[] = eventsData
 
-const EventSection = ({ rank, title, year, description, bgColor }: HistoryEvent) => {
+const EventSection = ({ rank, title, year, description, images, bgColor }: HistoryEvent) => {
   return (
     <section
       className={cn(
@@ -32,9 +33,23 @@ const EventSection = ({ rank, title, year, description, bgColor }: HistoryEvent)
           <p className="text-3xl md:text-4xl font-semibold text-white/70">
             {year}
           </p>
-          <p className="text-2xl md:text-3xl text-white/90 leading-relaxed max-w-5xl">
-            {description}
-          </p>
+          <div className="text-base md:text-lg text-white/90 leading-relaxed max-w-5xl space-y-4">
+            {description.split('\n\n').map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
+          </div>
+          {images && images.length > 0 && (
+            <div className="flex flex-wrap gap-6 mt-8">
+              {images.map((image, index) => (
+                <img
+                  key={index}
+                  src={image}
+                  alt={`${title} ${index + 1}`}
+                  className="rounded-lg shadow-2xl max-w-md w-full object-cover"
+                />
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </section>

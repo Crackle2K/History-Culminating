@@ -3,80 +3,71 @@
     "rank": 10,
     "title": "Battle of Hong Kong",
     "year": "1941",
-    "description": "The Battle of Hong Kong was the first battle involving Canadian troops in WW2, with the battle lasting from December 8th - 25th, 1941.",
-    "isCanadian": true,
+    "description": "Canada entered World War II in 1939, but the Canadian Army didn't participate in much combat for the first two years. The Prime Minister William Lyon Mackenzie king was careful about sending Canadian troops overseas, as he instead focused on military weapon production, food production, and the British Commonwealth Air Training Plan. In 1941, Britain requested Canadian troops to reinforce Hong Kong, even know they believed it was impossible to defend. Mackenzie king agreed, as he thought it wouldn't be very risky.\n\nThe Canadian troops that were sent to Hong Kong were composed of roughly 1,975 soilders from the Winnipeg Grenadiers and the Royal Rifles of Canada, arriving on November 16th, 1941. Neither regiment was really trained or prepared for a lot of combat, and a ton of soilders underestimated the Japanese military due to racism. On December 7th, 1941, Japan attacked Pearl Harbor, and after another six hours they invaded Hong Kong.\n\nThe Japanese forces attacked the airfields and overwhelmed mainland defenses, which fell quickly. By December 13th, 1941, they lost the mainland, and the Allied troops retreated back to Hong Kong Island. They had no reinforcements, and they prepared for a final fight. They fought on the island for roughly two weeks under harsh conditions, eventually being left exhausted and outmatched.\n\nThe Battle of Hong Hong lasted from December 8th to 25th, 1941, and ended with a surrender on Christmas. Throughout the battle, 290 Canadians were killed and 493 were wounded, and then another 264 died later in Japanese POW camps. After their surrender, the Canadian POWs were beaten, starved, and had to do forced labour, as the Japanese saw surrender as cowardly, making them treat Canadians with extreme cruelty and violence.\n\nIn August 1945, Japan eventually surrendered after the atomic bombings of Hiroshima and Nagasaki, and food and medical aid were given to prisoner camps. The Battle of Hong Kong remains as one of the most signficant events in Canadian history, being the first land battle involving Canadian troops in World War II, and displaying the sacrifice of Canadians fighting under brutal conditions.",
+    "images": ["/src/assets/images/battleofhongkong1.jpg", "/src/assets/images/battleofhongkong2.jpg"],
     "bgColor": "bg-red-900"
   },
   {
     "rank": 9,
     "title": "Dieppe Raid",
     "year": "1942",
-    "description": "description here",
-    "isCanadian": true,
+    "description": "After the miracle of Dunkirk, the Allied forces were forced to retreat whilst Germany was pushing into Russian territory. The Allies weren't strong enough to pull off Operation Overlord, so instead they planned a smaller attack known as the Dieppe Raid. Their goal was to gain combat experience and test the strength of Allied equipment by targeting a port in France, with Canadian troops leading the main attack.\n\nOn May 20th, 1942, troops were positioned on the Isle of Wight, located in the English Channel, training for the operation. Due to poor weather conditions, the attack was delayed until August. The invading force was mainly made up of Canadians, with around 5000/6100 of the soilders being Canadian. The raid took place on the morning of August 19th, 1942, with the Allied forces attacking at five different points along the battlefront.\n\nThe attack was unsuccessful as the allies lost the element of suprise. The sharp and violent noises alerted the German defenses on the coast, allowing them to prepare and man their positions before the Allies arrived. As a result, the attack troops faced heavy fire almost immediately after they landed.\n\nAfter nine hours of fighting, 907 Canadian soilders were killed, 2406 were wounded, and 1946 were taken prisoner. There were more Canadians captured during the Dieppe Raid than in eleven months of fighting in Northwest Europe between 1944 and 1945. The scale of the losses suprised allied leaders, as no one could have immagined how terrible the operation would turn out. The Dieppe Raid became one of the most significant defeats in Canadian military history.",
     "bgColor": "bg-purple-900"
   },
   {
     "rank": 8,
     "title": "Battle of the Atlantic",
     "year": "1939 - 1945",
-    "description": "description here",
-    "isCanadian": true,
+    "description": "example text\n\nexample text\n\nexample text\n\nexample text\n\nexample text",
     "bgColor": "bg-cyan-900"
   },
   {
     "rank": 7,
     "title": "Battle of Vimy Ridge",
     "year": "1917",
-    "description": "description here",
-    "isCanadian": true,
+    "description": "example text\n\nexample text\n\nexample text\n\nexample text\n\nexample text",
     "bgColor": "bg-green-900"
   },
   {
     "rank": 6,
     "title": "Fall of the Berlin Wall",
     "year": "1989",
-    "description": "description here",
-    "isCanadian": false,
+    "description": "example text\n\nexample text\n\nexample text\n\nexample text\n\nexample text",
     "bgColor": "bg-orange-900"
   },
   {
     "rank": 5,
     "title": "The Great Depression",
     "year": "1929 - 1939",
-    "description": "description here",
-    "isCanadian": false,
+    "description": "example text\n\nexample text\n\nexample text\n\nexample text\n\nexample text",
     "bgColor": "bg-gray-900"
   },
   {
     "rank": 4,
     "title": "D-Day Invasion of Juno Beach",
     "year": "1944",
-    "description": "description here",
-    "isCanadian": true,
+    "description": "example text\n\nexample text\n\nexample text\n\nexample text\n\nexample text",
     "bgColor": "bg-red-900"
   },
   {
     "rank": 3,
     "title": "The Manhattan Project",
     "year": "1942 - 1945",
-    "description": "description here",
-    "isCanadian": false,
+    "description": "example text\n\nexample text\n\nexample text\n\nexample text\n\nexample text",
     "bgColor": "bg-yellow-900"
   },
   {
     "rank": 2,
-    "title": "Operation Barborosa",
+    "title": "Operation Barbarossa",
     "year": "1941",
-    "description": "description here",
-    "isCanadian": false,
+    "description": "example text\n\nexample text\n\nexample text\n\nexample text\n\nexample text",
     "bgColor": "bg-violet-900"
   },
   {
     "rank": 1,
     "title": "The Moon Landing",
     "year": "1969",
-    "description": "description here",
-    "isCanadian": false,
+    "description": "example text\n\nexample text\n\nexample text\n\nexample text\n\nexample text",
     "bgColor": "bg-sky-900"
   }
 ]
