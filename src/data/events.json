@@ -12,7 +12,8 @@
     "title": "Dieppe Raid",
     "year": "1942",
     "description": "After the miracle of Dunkirk, the Allied forces were forced to retreat whilst Germany was pushing into Russian territory. The Allies weren't strong enough to pull off Operation Overlord, so instead they planned a smaller attack known as the Dieppe Raid. Their goal was to gain combat experience and test the strength of Allied equipment by targeting a port in France, with Canadian troops leading the main attack.\n\nOn May 20th, 1942, troops were positioned on the Isle of Wight, located in the English Channel, training for the operation. Due to poor weather conditions, the attack was delayed until August. The invading force was mainly made up of Canadians, with around 5000/6100 of the soilders being Canadian. The raid took place on the morning of August 19th, 1942, with the Allied forces attacking at five different points along the battlefront.\n\nThe attack was unsuccessful as the allies lost the element of suprise. The sharp and violent noises alerted the German defenses on the coast, allowing them to prepare and man their positions before the Allies arrived. As a result, the attack troops faced heavy fire almost immediately after they landed.\n\nAfter nine hours of fighting, 907 Canadian soilders were killed, 2406 were wounded, and 1946 were taken prisoner. There were more Canadians captured during the Dieppe Raid than in eleven months of fighting in Northwest Europe between 1944 and 1945. The scale of the losses suprised allied leaders, as no one could have immagined how terrible the operation would turn out. The Dieppe Raid became one of the most significant defeats in Canadian military history.",
-    "bgColor": "bg-purple-900"
+    "bgColor": "bg-purple-900",
+    "images": ["/src/assets/images/diepperaid1.png", "/src/assets/images/diepperaid2.png"]
   },
   {
     "rank": 8,
