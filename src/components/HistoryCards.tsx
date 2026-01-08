@@ -1,5 +1,11 @@
 import { cn } from "@/lib/utils"
 import eventsData from "@/data/events.json"
+import battleofhongkong1 from "@/assets/images/battleofhongkong1.jpg"
+import battleofhongkong2 from "@/assets/images/battleofhongkong2.jpg"
+import diepperaid1 from "@/assets/images/diepperaid1.png"
+import diepperaid2 from "@/assets/images/diepperaid2.png"
+import atlanticbattle1 from "@/assets/images/atlanticbattle1.jpg"
+import atlanticbattle2 from "@/assets/images/atlanticbattle2.jpg"
 
 interface HistoryEvent {
   rank: number
@@ -8,6 +14,15 @@ interface HistoryEvent {
   description: string
   images?: string[]
   bgColor: string
+}
+
+const imageMap: Record<string, string> = {
+  "/src/assets/images/battleofhongkong1.jpg": battleofhongkong1,
+  "/src/assets/images/battleofhongkong2.jpg": battleofhongkong2,
+  "/src/assets/images/diepperaid1.png": diepperaid1,
+  "/src/assets/images/diepperaid2.png": diepperaid2,
+  "/src/assets/images/atlanticbattle1.jpg": atlanticbattle1,
+  "/src/assets/images/atlanticbattle2.jpg": atlanticbattle2,
 }
 
 const events: HistoryEvent[] = eventsData
@@ -43,7 +58,7 @@ const EventSection = ({ rank, title, year, description, images, bgColor }: Histo
               {images.map((image, index) => (
                 <img
                   key={index}
-                  src={image}
+                  src={imageMap[image] || image}
                   alt={`${title} ${index + 1}`}
                   className="rounded-lg shadow-2xl max-w-md w-full object-cover"
                 />
