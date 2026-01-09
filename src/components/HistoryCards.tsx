@@ -6,6 +6,9 @@ import diepperaid1 from "@/assets/images/diepperaid1.png"
 import diepperaid2 from "@/assets/images/diepperaid2.png"
 import atlanticbattle1 from "@/assets/images/atlanticbattle1.jpg"
 import atlanticbattle2 from "@/assets/images/atlanticbattle2.jpg"
+import vimyridge1 from "@/assets/images/vimyridge1.jpg"
+import vimyridge2 from "@/assets/images/vimyridge2.jpg"
+
 
 interface HistoryEvent {
   rank: number
@@ -23,6 +26,8 @@ const imageMap: Record<string, string> = {
   "/src/assets/images/diepperaid2.png": diepperaid2,
   "/src/assets/images/atlanticbattle1.jpg": atlanticbattle1,
   "/src/assets/images/atlanticbattle2.jpg": atlanticbattle2,
+  "/src/assets/images/vimyridge1.jpg": vimyridge1,
+  "/src/assets/images/vimyridge2.jpg": vimyridge2,
 }
 
 const events: HistoryEvent[] = eventsData
