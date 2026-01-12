@@ -1,13 +1,5 @@
 # History Culminating Assessment
-- This website is a resource for a historical analysis of the Top 10 most important events in Canadian and world history." The analysis will break down each event by looking at their “historical setting, causes and consequences." The website will not focus on listing important events but will highlight their significance through analysis by looking at “why these events are important and their influence on our modern world." That is where the importance of learning about these events becomes essential for a better understanding of modern society.
-
-- By utilizing the addition of structured timelines, explanatory text, and graphic design, the goal of this project is to effectively communicate complicated concepts of history in a way that is engaging and easy to comprehend. Each historical event is analyzed in a way that considers cause and effect, concepts of continuity and change, as well as multiple perspectives to better understand how topics within history are related.
-
-- This culminating activity shows an appreciation for the major concepts and abilities in history, including the concepts of historical significance and the use of evidence and critical analysis. The project points out the links between the historical events that took place in both Canada and the world since it selects instances from both realms.
-
-- Apart from the historical information, the site portrays features that demonstrate intentional design to improve the clarity, organization, and useability of the site. These features include the use of visual hierarchy, effective layouts, and web technologies to facilitate learning through the logical and interesting navigation of the site. The convergence of historical research and web design demonstrates the potential for the use of technology as a tool for effective knowledge transfer.
-
-- This project will show that indeed not only understanding of factual information about major historical events can and should be provided, but also ability to assess their significance and importance, and ability to present this information in a meaningful and academic manner.
+- The Top 10 most significant events in Canadian and global history are analyzed historically on this website.The historical setting, causes, and consequences of each event will be examined in the analysis. The website will examine why these events are important and their influence on our modern world rather than simply listing significant events. This is the point at which understanding these occurrences becomes crucial to comprehending contemporary society.
 
 ## Infrastructure
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
