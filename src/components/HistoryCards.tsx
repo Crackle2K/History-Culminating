@@ -22,6 +22,7 @@ import barbarossa1 from "@/assets/images/barbarossa1.jpg"
 import barbarossa2 from "@/assets/images/barbarossa2.jpg"
 import depression1 from "@/assets/images/depression.png"
 import depression2 from "@/assets/images/depression2.jpg"
+import { ComicText } from "@/components/ui/comic-text"
 
 
 interface HistoryEvent {
@@ -146,7 +147,22 @@ export function HistoryCards() {
   return (
     <div className="w-full">
       {events.map((event) => (
-        <EventSection key={event.rank} {...event} />
+        <>
+          <EventSection key={event.rank} {...event} />
+          {event.rank === 6 && (
+            <section className="w-full min-h-screen flex items-center justify-center bg-white">
+              <motion.div
+                initial={{ opacity: 0, scale: 0.5 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true }}
+                className="text-center"
+              >
+                <ComicText>You're Halfway There!</ComicText>
+              </motion.div>
+            </section>
+          )}
+        </>
       ))}
     </div>
   )
